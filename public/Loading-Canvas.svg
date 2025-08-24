@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" data-app="Xyris">
+    <defs>
+    </defs>
+    <rect fill="rgb(218, 211, 211)" stroke="#000000" stroke-width="0" x="0" y="0" width="600" height="400" transform="">
+    </rect>
+    <text x="193.345" y="216.73014" font-family="Arial" font-size="48" fill="rgb(0, 0, 0)" transform="" font-weight="600" textLength="-0" fill-opacity="0.17">
+        Loading..
+        <animate attributeName="opacity" keyTimes="0; 0.23232323232323235; 0.498989898989899; 0.7454544529770359; 1" values="0;0.4;0.16;0.4;0.15" begin="-0.00001" dur="1.98002" fill="freeze" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="3">
+        </animate>
+        <animate attributeName="visibility" keyTimes="0; 1.0" values="hidden; hidden" begin="5.955990000000001" dur="3.00002" fill="freeze" calcMode="spline" keySplines="0 0 1 1">
+        </animate>
+    </text>
+    <text x="81.8141" y="208.654" font-family="Arial" font-size="24" fill="rgba(0, 0, 0, 0.18)" transform="">
+        Can't Load.. Click on View Project Button
+        <animate attributeName="visibility" keyTimes="0; 1" values="hidden; visible" begin="-0.9560098168945309" dur="6.9120198168945315" fill="freeze" calcMode="spline" keySplines="0 0 1 1">
+        </animate>
+        <animate attributeName="opacity" keyTimes="0; 1" values="0;0.8" begin="5.955990000000001" dur="0.47202012207031163" fill="freeze" calcMode="spline" keySplines="0.42 0 1 1">
+        </animate>
+    </text>
+</svg>

@@ -1,0 +1,123 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import "@fontsource/montserrat"; /* Defaults to 400 regular */
+@import "@fontsource/montserrat/500.css"; /* Medium */
+@import "@fontsource/montserrat/700.css"; /* Bold */
+@theme {
+  --font-roboto: "Roboto", sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: "#2E2E2E]";
+}
+.profile-container-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-border-wrapper-header {
+  position: relative;
+  width: 50px; /* total size including border */
+  height: 50px;
+  border-radius: 50%;
+  padding: 4px; /* border thickness */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-border-header {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg, #0095ffff, #ffffffff, #ffffffff);
+  animation: spin-1 4s linear infinite;
+  z-index: 1;
+}
+
+.profile-border-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: inherit;
+  filter: blur(4px); /* glass/frosted effect */
+}
+
+.profile-border-wrapper-header img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  z-index: 2; /* ensures image stays above spinning border */
+}
+
+@keyframes spin-1 {
+  100% {
+    transform: rotate(0deg);
+  }
+  0% {
+    transform: rotate(360deg);
+  }
+  /* slider profile pic */
+}
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px; /* optional spacing */
+}
+
+.profile-border-wrapper {
+  position: relative;
+  width: 140px; /* total size including border */
+  height: 140px;
+  border-radius: 50%;
+  padding: 6px; /* border thickness */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-border {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg, #3b82f6, #8b5cf6, #ec4899, #3b82f6);
+  animation: spin 4s linear infinite;
+  z-index: 1;
+}
+
+.profile-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: inherit;
+  filter: blur(4px); /* glass/frosted effect */
+}
+
+.profile-border-wrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  z-index: 2; /* ensures image stays above spinning border */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#Hero-Illustrator {
+  background: url("/Illustrator-1.svg");
+  background-size: cover;
+}

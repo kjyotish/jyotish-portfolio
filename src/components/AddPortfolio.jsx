@@ -63,6 +63,13 @@ export default function AddPortfolio() {
         type: "embed",
         src: "https://www.youtube.com/embed/invufulSMbQ", // Example YouTube video
       },
+      {
+        title: "Share Market",
+        description:
+          "Motion graphics, smooth animations and with sound effects.",
+        type: "embed",
+        src: "https://www.youtube.com/embed/HnoMRR1CTaM", // Example YouTube video
+      },
     ],
   };
 

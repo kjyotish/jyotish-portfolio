@@ -125,6 +125,12 @@ export default function Header() {
         >
           Contact
         </button>
+        <a
+          href="https://www.behance.net/jyotishkumar46"
+          className="hover:text-blue-400 transition"
+        >
+          Behance
+        </a>
       </div>
 
       {/* Mobile Hamburger */}
@@ -247,6 +253,12 @@ export default function Header() {
           >
             Skills
           </button>
+          <a
+            href="https://www.behance.net/jyotishkumar46"
+            className="hover:text-blue-400 transition"
+          >
+            Behance
+          </a>
         </div>
       </div>
 

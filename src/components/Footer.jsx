@@ -3,6 +3,9 @@ import { scrollToSection } from "../utils/scrollToSection";
 const handleOpenContactInNewTab = () => {
   window.open("/contact", "_blank"); // always opens Contact in a fresh tab
 };
+const handleOpenPortfolioInNewTab = () => {
+  window.open("/portfolio", "_blank"); // always opens Contact in a fresh tab
+};
 export default function Footer() {
   return (
     <footer className="bg-[#181515] text-white py-10">
@@ -20,12 +23,18 @@ export default function Footer() {
 
         {/* Middle Section - Links */}
         <div className="flex flex-col lg:flex-row items-start lg:items-center justify-start lg:justify-center space-y-2 lg:space-y-0 lg:space-x-6">
-          <button onClick={() => scrollToSection("Home")} className="hover:text-blue-400 transition cursor-pointer">
+          <button
+            onClick={() => scrollToSection("Home")}
+            className="hover:text-blue-400 transition cursor-pointer"
+          >
             Home
           </button>
-          <a href="#portfolio" className="hover:text-blue-400 transition">
+          <button
+            onClick={handleOpenPortfolioInNewTab}
+            className="hover:text-blue-400 transition"
+          >
             Portfolio
-          </a>
+          </button>
           <a
             href="https://www.behance.net/jyotishkumar46"
             className="hover:text-blue-400 transition"

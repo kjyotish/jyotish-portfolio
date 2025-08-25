@@ -3,8 +3,13 @@ import AnimatedBtn from "./InteractiveButton/AnimatedBtn";
 
 const RecentProjects = ({ projects }) => {
   return (
-    <section id="Projects" className="w-full py-10 bg-[#212121] px-6 lg:px-30 scroll-mt-20">
-      <h2 className="text-3xl font-bold text-center mb-8 text-white">Recent Projects</h2>
+    <section
+      id="Projects"
+      className="w-full py-10 bg-[#212121] px-6 lg:px-30 scroll-mt-20"
+    >
+      <h2 className="text-3xl font-bold text-center mb-8 text-white">
+        Recent Projects
+      </h2>
 
       <div className="space-y-8">
         {projects.map((project, index) => {
@@ -30,7 +35,6 @@ const RecentProjects = ({ projects }) => {
                         backgroundSize: "cover",
                         backgroundPositionY: "-22px",
                       }}
-                      frameBorder="0"
                       allowFullScreen
                     ></iframe>
                   </div>

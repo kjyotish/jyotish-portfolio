@@ -1,6 +1,6 @@
 {
-  "homepage": "https://kjyotish.github.io/ResumeAndPortfolio",
   "name": "resume",
+  "homepage": "https://kjyotish.github.io/ResumeAndPortfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fontsource/montserrat": "^5.2.6",

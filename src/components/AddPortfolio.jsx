@@ -20,6 +20,13 @@ export default function AddPortfolio() {
         type: "embed",
         src: "https://embed.figma.com/proto/vHL2e5qDHQTfTNP6nguYhd/Video-Editing-Portfolio-Website?page-id=0%3A1&node-id=1-4&viewport=352%2C173%2C0.13&scaling=scale-down-width&content-scaling=fixed&embed-host=share", // example embed
       },
+      {
+        title: "My Portfolio Website",
+        description:
+          "This portfolio site is designed with clarity and usability at its core. It applies UX laws such as Miller’s Law (organized information), Hick’s Law (simplified choices), and Fitts’s Law (accessible actions) to guide visitors smoothly. With minimal UI, balanced typography, and smooth transitions, the design ensures an intuitive browsing experience.",
+        type: "image",
+        src: "portfolio/jyotish-portfolio.png", // example embed
+      },
     ],
     "Graphics Designs": [
       {

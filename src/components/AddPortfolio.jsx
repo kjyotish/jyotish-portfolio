@@ -14,7 +14,7 @@ export default function AddPortfolio() {
       },
 
       {
-        title: "Video Editing Website UI",
+        title: "Website UI Design",
         description:
           "A sleek and intuitive interface designed to make video editing effortless. Built with clean layouts, clear visual hierarchy, and smooth interactions to enhance both creativity and usability.",
         type: "embed",
@@ -31,9 +31,30 @@ export default function AddPortfolio() {
     "Graphics Designs": [
       {
         title: "Motion Graphic",
-        description: "An interactive scalable vector motion graphic.",
+        description: "An interactive, scalable vector motion graphic adapts seamlessly to any screen size without losing clarity. It combines smooth animations with user interaction, creating an engaging experience. Designed for flexibility and precision, it delivers both visual appeal and functional impact.",
         type: "image",
         src: "/HeroBack.svg",
+      },
+      {
+        title: "Instagram Post Design",
+        description:
+          "Typography gives words a voice, while colors set the emotion. With balance and contrast, design turns visuals into unforgettable experiences.",
+        type: "carousel",
+        images: [
+          "/portfolio/carousal-1/1.jpg",
+          "/portfolio/carousal-1/2.jpg",
+          "/portfolio/carousal-1/3.jpg",
+          "/portfolio/carousal-1/4.jpg",
+          "/portfolio/carousal-1/5.jpg",
+          "/portfolio/carousal-1/6.jpg",
+          "/portfolio/carousal-1/7.jpg",
+        ],
+      },
+      {
+        title: "Teacher Day Card Design",
+        description: "A simple, minimal Teacher’s Day card crafted in Photoshop — where elegance meets gratitude. Clean design, heartfelt message, timeless impact.",
+        type: "image",
+        src: "/portfolio/graphic-design/teacher-day-card.jpg",
       },
     ],
     // ✅ NEW: Video Editing section
@@ -71,6 +92,8 @@ export default function AddPortfolio() {
         src: "https://www.youtube.com/embed/HnoMRR1CTaM", // Example YouTube video
       },
     ],
+
+   
   };
 
   return <PortfolioSection data={portfolioData} />;

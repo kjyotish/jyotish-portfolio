@@ -71,13 +71,6 @@ export default function AddPortfolio() {
       {
         title: "KSONS Coconut Oil Branding",
         description:
-          "AI Script, AI Voice, Used footages to create video more engaging and realistic.",
-        type: "embed",
-        src: "https://youtube.com/embed/aoc61y2Dwaw?feature=share", // place sample.mp4 inside /public folder
-      },
-      {
-        title: "KSONS Coconut Oil Branding",
-        description:
           "AI Script, AI Voice, Shooting plus Editing whole thing covered by me.",
         type: "embed",
         src: "https://youtube.com/embed/ji7RYYynDnY?feature=share", // place sample.mp4 inside /public folder

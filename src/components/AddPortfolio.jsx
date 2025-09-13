@@ -31,7 +31,8 @@ export default function AddPortfolio() {
     "Graphics Designs": [
       {
         title: "Motion Graphic",
-        description: "An interactive, scalable vector motion graphic adapts seamlessly to any screen size without losing clarity. It combines smooth animations with user interaction, creating an engaging experience. Designed for flexibility and precision, it delivers both visual appeal and functional impact.",
+        description:
+          "An interactive, scalable vector motion graphic adapts seamlessly to any screen size without losing clarity. It combines smooth animations with user interaction, creating an engaging experience. Designed for flexibility and precision, it delivers both visual appeal and functional impact.",
         type: "image",
         src: "/HeroBack.svg",
       },
@@ -52,13 +53,64 @@ export default function AddPortfolio() {
       },
       {
         title: "Teacher Day Card Design",
-        description: "A simple, minimal Teacher’s Day card crafted in Photoshop — where elegance meets gratitude. Clean design, heartfelt message, timeless impact.",
+        description:
+          "A simple, minimal Teacher’s Day card crafted in Photoshop — where elegance meets gratitude. Clean design, heartfelt message, timeless impact.",
         type: "image",
         src: "/portfolio/graphic-design/teacher-day-card.jpg",
+      },
+      {
+        title: "Call-To-Action Design",
+        description:
+          "Call-to-Action for video-ending, Used color-theory and also focused on brand color.",
+        type: "video",
+        src: "/portfolio/graphic-design/KsonEndGraphic.mp4",
       },
     ],
     // ✅ NEW: Video Editing section
     "Video Editings": [
+      {
+        title: "KSONS Coconut Oil Branding",
+        description:
+          "AI Script, AI Voice, Used footages to create video more engaging and realistic.",
+        type: "embed",
+        src: "https://youtube.com/embed/aoc61y2Dwaw?feature=share", // place sample.mp4 inside /public folder
+      },
+      {
+        title: "KSONS Coconut Oil Branding",
+        description:
+          "AI Script, AI Voice, Shooting plus Editing whole thing covered by me.",
+        type: "embed",
+        src: "https://youtube.com/embed/ji7RYYynDnY?feature=share", // place sample.mp4 inside /public folder
+      },
+      {
+        title: "Sembel AI-Voice-Generated video editing",
+        description:
+          "In this video I used text to voice AI model for voice and the script provided by client, all visuals are used according content.",
+        type: "embed",
+        src: "https://youtube.com/embed/FAGEkqxgCDc?feature=share", // place sample.mp4 inside /public folder
+      },
+      {
+        title: "Ruggd Indian, Product-Branding",
+        description:
+          "Not something unusual are used in this video, Just focused on product, and I tried to keep it simple as client needs.",
+        type: "embed",
+        src: "https://youtube.com/embed/WZqYSsP0gPE?feature=share", // place sample.mp4 inside /public folder
+      },
+      {
+        title: "KSONS Tea Product Branding",
+        description:
+          "In video, I used AI voice with cool and focused background music, the goal of video is to promote Ksons Tea.",
+        type: "embed",
+        src: "https://youtube.com/embed/zmdZO2kI0ZQ?feature=share", // place sample.mp4 inside /public folder
+      },
+      {
+        title: "RGHC Promotional Video",
+        description:
+          "The main goal of this video editing is to promote RGHC No.1 Healthcare Center.",
+        type: "embed",
+        src: "https://youtube.com/embed/s_dSfTfi-5A?feature=share", // place sample.mp4 inside /public folder
+      },
+
       {
         title: "Finance/Share Market Reel Editings",
         description: "Short-form content with motion graphics overlays.",
@@ -92,8 +144,6 @@ export default function AddPortfolio() {
         src: "https://www.youtube.com/embed/HnoMRR1CTaM", // Example YouTube video
       },
     ],
-
-   
   };
 
   return <PortfolioSection data={portfolioData} />;

@@ -76,7 +76,7 @@ export default function TypingText() {
 
         {/* Centered Text */}
         <g mask="url(#revealMask)">
-          <text x="50%" y="50%">uiux &amp; graphic designer</text>
+          <text x="50%" y="50%">uiux &amp; video editor</text>
         </g>
 
         {/* Typing cursor */}

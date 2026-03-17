@@ -67,7 +67,7 @@ const TypingText = () => {
 
       {/* Text */}
       <g mask="url(#revealMask)">
-        <text x="40" y="110">uiux &amp; graphic designer</text>
+        <text x="40" y="110">uiux &amp; video editor</text>
       </g>
 
       {/* Typing cursor */}

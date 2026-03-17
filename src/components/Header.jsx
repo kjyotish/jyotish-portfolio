@@ -134,7 +134,7 @@ export default function Header() {
       </div>
 
       {/* Mobile Hamburger */}
-      <div className="sm:hidden" tran>
+      <div className="sm:hidden">
         <button
           onClick={() => setMenuOpen(!isMenuOpen)}
           className="focus:outline-none text-gray-700 text-2xl relative w-10 h-10 flex items-center justify-center "
@@ -171,9 +171,9 @@ export default function Header() {
         >
           About Me
         </a>
-        <div class="profile-container-header ">
-          <div class="profile-border-wrapper-header">
-            <div class="profile-border-header"></div>
+        <div className="profile-container-header ">
+          <div className="profile-border-wrapper-header">
+            <div className="profile-border-header"></div>
 
             <img src="/profile.jpg" alt="Profile" />
           </div>
@@ -276,9 +276,9 @@ export default function Header() {
           ✕ Close
         </button>
         <div className="space-y-3 pt-[0px]">
-          <div class="profile-container ">
-            <div class="profile-border-wrapper">
-              <div class="profile-border"></div>
+          <div className="profile-container ">
+            <div className="profile-border-wrapper">
+              <div className="profile-border"></div>
               <img src="/profile.jpg" alt="Profile" />
             </div>
           </div>

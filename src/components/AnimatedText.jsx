@@ -1,5 +1,3 @@
-
-
 const TypingText = () => {
   return (
     <svg
@@ -12,7 +10,7 @@ const TypingText = () => {
         :root {
           --duration: 2.5s; /* typing duration */
           --steps: 25; /* number of characters */
-          --targetWidth: 750px; /* adjusted to fit text exactly */
+          --targetWidth: 600px; /* adjusted to fit text exactly */
           --cursorWidth: 3px;
           --fontSize: 64px;
           --lineHeight: 95px; /* enough for full text visibility */
@@ -62,12 +60,22 @@ const TypingText = () => {
       {/* Mask for typing effect */}
       <mask id="revealMask">
         <rect x="0" y="0" width="100%" height="100%" fill="black" />
-        <rect id="revealRect" x="40" y="30" width="0" rx="2" ry="2" fill="white" />
+        <rect
+          id="revealRect"
+          x="40"
+          y="30"
+          width="0"
+          rx="2"
+          ry="2"
+          fill="white"
+        />
       </mask>
 
       {/* Text */}
       <g mask="url(#revealMask)">
-        <text x="40" y="110">uiux &amp; video editor</text>
+        <text x="40" y="110">
+          uiux &amp; video editor
+        </text>
       </g>
 
       {/* Typing cursor */}

@@ -40,17 +40,17 @@ export default function HeroSection() {
         <p className="w-full max-w-xl text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed mb-6 px-3 sm:px-0 lg:ml-6">
           I’m Jyotish, a{" "}
           <span className="font-semibold text-white">
-            Frontend and Graphic Designer
+            UIUX and Video Editor
           </span>{" "}
           skilled in
           <span className="font-semibold text-white">
             {" "}
-            Figma, Photoshop, Illustrator
+            Figma, Photoshop, Illustrator, Premeire & Capcut
           </span>
-          ,<span className="font-semibold text-white"> HTML</span>,
-          <span className="font-semibold text-white"> CSS</span>,
-          <span className="font-semibold text-white"> JavaScript</span>, This
-          website and all graphics are created by me. Watch my design portfolio.
+          ,<span className="font-semibold text-white"> also</span>
+          <span className="font-semibold text-white"> a</span>
+          <span className="font-semibold text-white"> Vibe Coder</span> This
+          website and all things are created by me. Watch my design portfolio.
         </p>
 
         {/* Buttons */}

@@ -7,13 +7,14 @@ import ResumeDownloadButton from "./ResumeDownloadButton";
 export default function PortfolioSection({ data = {} }) {
   const tabs = Object.keys(data);
   const [activeTab, setActiveTab] = useState(tabs[0] || "");
+  const [carouselIndexes, setCarouselIndexes] = useState({});
 
   // ✅ keep activeTab in sync with data
   useEffect(() => {
     if (tabs.length && !tabs.includes(activeTab)) {
       setActiveTab(tabs[0]);
     }
-  }, [data]);
+  }, [activeTab, tabs]);
 
   if (!tabs.length) {
     return (
@@ -22,13 +23,6 @@ export default function PortfolioSection({ data = {} }) {
       </section>
     );
   }
-
-  //carousal
-
-  const [activeTab2, setActiveTab2] = useState(Object.keys(data)[0]);
-  // State for each carousel (tracks active slide per index)
-  const [carouselIndexes, setCarouselIndexes] = useState({});
-
   const handlePrev = (idx, imagesLength) => {
     setCarouselIndexes((prev) => ({
       ...prev,

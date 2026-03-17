@@ -3,7 +3,9 @@ import React from "react";
 const CaseStudySection = () => {
   return (
     <section id="case-study" className="w-full bg-[#212121] py-12">
-      <h2 class="text-3xl font-bold text-center mb-8 text-white">Case Study</h2>
+      <h2 className="text-3xl font-bold text-center mb-8 text-white">
+        Case Study
+      </h2>
       <div className="mx-auto max-w-5xl px-4 space-y-6">
         {/* Case Study 1 */}
         <div className="flex flex-col md:flex-row items-center lg:gap-6 gap:4 bg-black/20 p-4 rounded-2xl shadow">

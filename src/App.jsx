@@ -37,10 +37,10 @@ function Layout() {
         />
 
         {/* Contact Page (with fresh state always) */}
-        <Route path="/contact" element={<ContactSection key={Date.now()} />} />
+        <Route path="/contact" element={<ContactSection />} />
 
         {/* Portfolio Page (with fresh state always) */}
-        <Route path="/portfolio" element={<AddPortfolio key={Date.now()} />} />
+        <Route path="/portfolio" element={<AddPortfolio />} />
       </Routes>
     </div>
   );

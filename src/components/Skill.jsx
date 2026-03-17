@@ -119,7 +119,9 @@ const SkillSection = () => {
       id="Skills"
       className="flex flex-col w-full h-full py-10 space-y-10 px-6 lg:px-30 bg-[#2E2E2E] scroll-mt-20"
     >
-      <h2 class="text-3xl font-bold text-center mb-8 text-white">Skills</h2>
+      <h2 className="text-3xl font-bold text-center mb-8 text-white">
+        Skills
+      </h2>
       {skills.map((skill, index) => (
         <div
           key={index}

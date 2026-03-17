@@ -12,7 +12,7 @@ export default function TypingText() {
             :root {
               --duration: 2.5s; /* typing duration */
               --steps: 25; /* number of characters */
-              --targetWidth: 800px; /* adjusted to fit text exactly */
+              --targetWidth: 750px; /* adjusted to fit text exactly */
               --cursorWidth: 3px;
               --fontSize:64px;
               --lineHeight: 95px; /* enough for full text visibility */
@@ -76,7 +76,9 @@ export default function TypingText() {
 
         {/* Centered Text */}
         <g mask="url(#revealMask)">
-          <text x="50%" y="50%">uiux &amp; video editor</text>
+          <text x="50%" y="50%">
+            uiux &amp; video editor
+          </text>
         </g>
 
         {/* Typing cursor */}

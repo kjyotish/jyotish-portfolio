@@ -14,16 +14,16 @@ function RecentProjectAdd() {
       buttonText: "View Project",
       buttonLink: "https://www.songfinderai.com/",
     },
-    {
-      title: "Website Landing Page UI",
-      description:
-        "In this project I have created  a modern ui design with illustrations, modern cards design, pricing cards, content hide/show button and latest design footer",
-      image: "",
-      embed:
-        "https://embed.figma.com/proto/NDUg66oD664sEY3Hg5lcyq/Abun-landing-page-UI?page-id=38%3A64&node-id=38-65&viewport=374%2C111%2C0.07&scaling=scale-down-width&content-scaling=fixed&embed-host=share", // optional embed link
-      buttonText: "View Project",
-      buttonLink: "https://www.behance.net/jyotishkumar46",
-    },
+    // {
+    //   title: "Website Landing Page UI",
+    //   description:
+    //     "In this project I have created  a modern ui design with illustrations, modern cards design, pricing cards, content hide/show button and latest design footer",
+    //   image: "",
+    //   embed:
+    //     "https://embed.figma.com/proto/NDUg66oD664sEY3Hg5lcyq/Abun-landing-page-UI?page-id=38%3A64&node-id=38-65&viewport=374%2C111%2C0.07&scaling=scale-down-width&content-scaling=fixed&embed-host=share", // optional embed link
+    //   buttonText: "View Project",
+    //   buttonLink: "https://www.behance.net/jyotishkumar46",
+    // },
     {
       title: "Construction Website Frontend",
       description:

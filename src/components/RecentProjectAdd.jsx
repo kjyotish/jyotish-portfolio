@@ -5,6 +5,16 @@ import RecentProjects from "./RecentProjects";
 function RecentProjectAdd() {
   const projects = [
     {
+      title: "Song Finder AI Website",
+      description:
+        "Song Finder AI is a smart platform that helps video editors and creators quickly find the perfect songs for their videos based on mood, movement, language, and style. It analyzes your selected filters and suggests trending songs that match your vibe in seconds. Built with React, Next.js, Supabase, and the Gemini API, it offers a mobile-friendly UI and smooth user experience.",
+      image: "",
+      embed:
+        "", // optional embed link
+      buttonText: "View Project",
+      buttonLink: "https://www.songfinderai.com/",
+    },
+    {
       title: "Website Landing Page UI",
       description:
         "In this project I have created  a modern ui design with illustrations, modern cards design, pricing cards, content hide/show button and latest design footer",

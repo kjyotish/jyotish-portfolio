@@ -108,7 +108,7 @@ const SkillSection = () => {
           <div className="flex h-[100%] w-full text-blue-800 font-bold text-lg items-center justify-center">
             <VideoEditing className="scale-[1.02]" />
           </div>
-          <ExperienceBar text="2+ Year Experience" />
+          <ExperienceBar text="3+ Year Experience" />
         </div>
       ),
     },

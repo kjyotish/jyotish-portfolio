@@ -18,7 +18,7 @@ export default function Footer() {
             className="w-20 h-20 rounded-full border-2 border-gray-300"
           />
           <h3 className="mt-4 text-lg font-semibold">Jyotish Kumar</h3>
-          <p className="text-gray-400">UI/UX & Graphic Designer</p>
+          <p className="text-gray-400">UI/UX & Video Editor</p>
         </div>
 
         {/* Middle Section - Links */}
